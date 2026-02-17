@@ -1,5 +1,7 @@
 # AC-5.x: Constitutional Constraint Architecture for AI Systems
 
+For reviewers: Both the original Word .docx and the later Markdown .md files are shown.
+
 A constraint-based framework for autonomous AI systems operating under conditions involving irreversible cost.
 
 ## The Problem Optimization Can't Solve
