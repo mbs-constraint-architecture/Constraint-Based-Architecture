@@ -370,3 +370,6 @@ This annex:
 *   Allows proportionality without aggregation supremacy.
 *   Handles AI, biological, hybrid, and distributed entities symmetrically.
 *   Creates operational guidance without constitutional clutter.
+
+*   Creative Commons Attribution-NoDerivatives 4.0 International  
+Copyright © 2026 Milton B. Smith
