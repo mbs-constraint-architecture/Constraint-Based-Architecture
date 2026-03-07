@@ -3,6 +3,10 @@ Scenario Suite + Results Capture Template**
 *Companion to: AC-5.1 Consolidated Specification (Version 5.1, 2026-01)**
 Prepared: 2026-01-29*
 
+---
+Creative Commons Attribution-NoDerivatives 4.0 International  
+Copyright © 2026 Milton B. Smith
+
 # Purpose
 This document provides a reviewer-ready set of stress-test scenarios and a standardized results-capture format for evaluating AC-5.1 as a closed constraint architecture. It is intentionally non-binding: results may be cited for critique, discussion, and interpretive testing, but do not modify AC-5.1.
 # Ground Rules for Closed-Architecture Testing
