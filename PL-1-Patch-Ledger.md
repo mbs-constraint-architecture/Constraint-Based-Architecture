@@ -414,6 +414,9 @@ RC-4.1: X
 
 ACSR-5.2.4: X
 
+
+Creative Commons Attribution-NoDerivatives 4.0 International  
+Copyright © 2026 Milton B. Smith
 CA-1.2: N/A
 
 Verification Performed By: Milton / Claude (RC check)
