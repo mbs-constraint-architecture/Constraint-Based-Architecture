@@ -603,4 +603,7 @@ The following documents are referenced by the Gold Master and preserved as histo
 ---
 
 *End of Gold Master Handoff Package*
-*All articles I–XII locked. Appendix B locked. Ready for final assembly by Rowan.*
+*All articles I–XII locked. Appendix B locked. 
+
+Creative Commons Attribution-NoDerivatives 4.0 International  
+Copyright © 2026 Milton B. Smith
