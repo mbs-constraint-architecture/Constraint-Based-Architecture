@@ -8,7 +8,7 @@ These documents define behavioral standards, statutory governance structures, an
 
 ## Repository Contents
 
-### AC-5.2 — Behavioral Constraint Standards for Artificial Intelligent Systems
+### AC-5.3 — Behavioral Constraint Standards for Artificial Intelligent Systems
 
 The primary normative specification defining the internal behavioral architecture required for constraint-based AI systems.
 
@@ -28,7 +28,7 @@ File:
 
 ---
 
-### ACSR-5.2.4 — Statutory Recommendations for Governance of AI Systems
+### ACSR-5.3 — Statutory Recommendations for Governance of AI Systems
 
 Statutory overlay defining external governance, authority assignment, liability rules, and crisis authority structures for systems operating under AC-5.2.
 
@@ -112,8 +112,11 @@ Closes Appendix-G GAP-1
 GAP-2 remains open by design
 
 Patch containers record configuration lineage.
-Official integrated text is maintained in repository files.
-
+Official integrated text is maintained in repository files. 
+Incorporated all patches found within PL-1 through PL-3
+within the primary supported documents, closing all open patches,
+and closing the container PL-1 through 3 files.
+AC-5.3 and ACSR-5.3 are the new baseline specifications.
 ---
 
 ## License
