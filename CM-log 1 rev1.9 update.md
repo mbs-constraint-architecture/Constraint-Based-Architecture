@@ -59,6 +59,91 @@ Format: Random scenario retest from VT-05 / VT-06 + one scenario per AHTeam memb
 Authority: AHTeam
 Outcome recorded as: Confidence Verification record (standalone document)
 
+Entry ID: CM-027
+
+Source: AHTeam discussion — Milton / Rowan — 2026-03-30
+Type: Forward Architectural Consideration (Non-normative)
+
+Title: Recoverability-Preserving Action Selection (Base-Layer Candidate)
+Statement of Concept
+
+During constraint-compliant action selection, when multiple execution paths satisfy all active constraints, the system should preferentially select the path that preserves the affected party’s capacity for recovery, provided that constraint integrity, system safety, and mission requirements are not violated.
+
+Problem Context
+
+Current AC-5.3 architecture ensures:
+
+constraint satisfaction
+enforcement correctness
+accountability
+
+However, it does not explicitly govern selection among multiple valid action paths with respect to:
+
+reversibility
+downstream survivability
+recoverability of affected agents
+
+This creates a potential condition where:
+
+A constraint-valid action may produce unnecessary irreversible harm despite the existence of a recoverable alternative.
+
+Architectural Significance
+
+This concept proposes that:
+
+Constraint validity is necessary but not sufficient
+Irreversibility carries architectural weight
+Recoverability may be a first-class consideration in safe agency
+
+If validated, this would affect:
+
+action-selection primitives
+irreversible cost handling
+enforcement execution semantics
+Key Boundary Conditions
+
+This concept MUST NOT:
+
+override or weaken constraint integrity
+introduce discretionary or emotional bias
+permit rule violation under the guise of “mercy”
+
+This concept ONLY applies:
+
+when multiple actions are already constraint-valid
+as a selection preference, not an exception mechanism
+Unresolved Questions
+Does this belong as:
+a core primitive in AC-5.x
+a subordinate rule under irreversible cost / action selection
+How is recoverability formally defined and bounded?
+How is adversarial manipulation prevented?
+What are the failure modes under crisis (Article XI conditions)?
+How does this interact with:
+refusal integrity
+load management
+multi-agent coordination
+Reason for Deferral
+
+Concept identified as potentially foundational but:
+
+not yet structurally located
+not adversarially tested
+not formally bounded
+
+Premature inclusion risks architectural instability or misuse vectors.
+
+Planned Re-Evaluation Trigger
+
+Revisit when:
+
+next AC base-layer revision cycle is opened
+OR
+action-selection / irreversible-cost primitives are modified
+Status: OPEN — Deferred for structured evaluation
+
+Priority: TBD
+Disposition: Capture only (non-normative)
 ---
 
 *Non-normative. Does not modify any specification.*
